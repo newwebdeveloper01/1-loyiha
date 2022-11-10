@@ -1,0 +1,7 @@
+.blackboard{
+    display: grid;
+    grid-template-columns: repeat(Auto-fill, minmax(320px, 1fr));
+    gap: 10px;
+ 
+ }
+ 
