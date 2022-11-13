@@ -1,7 +1,13 @@
-.blackboard{
+.salom{
     display: grid;
     grid-template-columns: repeat(Auto-fill, minmax(320px, 1fr));
     gap: 10px;
  
+ }
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
  }
  

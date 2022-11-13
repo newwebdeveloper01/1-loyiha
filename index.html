@@ -22,22 +22,23 @@
         <section>
             <div class="container">
                 <div class="row">
-                    <div class="col-3 shadow">
-                        <form action="">
-                            <label for="idname" class=" w-100 p-3 fs-5">Film name
-                                <input type="text" class="form-control w-100 p-3" placeholder="Film name" id="idname">
+                    <div class="col-3  h-100">
+                        <form action="" class="formSubmit">
+                            <label for="idName" class=" w-100 p-3 fs-5">Film name
+                                <input type="text" class="form-control w-100 p-3" placeholder="Film name" id="idName">
                             </label>
-                            <label for="idreyting" class="form-label w-100  p-3">Film reyting
-                                <input type="number" name="" class="form-control  p-3" id="idreyting" min="1" max="10">
+                            <label for="idReyting" class="form-label w-100  p-3">Film reyting
+                                <input type="number" name="" class="form-control  p-3" id="idReyting" min="1" max="10">
                             </label>
-                            <select id="category" class="form-select my-3 w-100 p-3 ">
+                            <select id="idCategory" class="form-select my-3 w-100 p-3 ">
                                 <option value="all" selected disabled>Select film category</option>
                              </select>
-                             <button type="submit" class="btn btn-success w-100 p-3">Search</button>
+                             <button type="submit" class="btn btn-success w-100 p-3 mb-4">Search</button> 
+                             <h4 class="info__number"></h4>
                         </form>
                     </div>
                     <div class="col-7 p-3 bg-light m-2">
-                        <div class="blackboard">
+                        <div class="salom">
 
                         </div>
 
@@ -50,8 +51,9 @@
             </div>
         </section>
     </main>
-</body>
+<script src="/baza.js"></script>
 <script src="/scripts/utils.js"></script>
-<script src="/baza.js">     </script>
 <script src="/script.js"></script>
+</body>
+
 </html>
